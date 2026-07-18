@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="jamiu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Jamiu's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <figure>
+                <img src="images/WhatsApp Image 2026-04-03 at 13.59.50.jpeg" alt="jamiu headshot" loading="lazy">
+                <figcaption>A$PIRING-T3CH</figcaption>
+            </figure>
+            <p>Hello! I'm Jamiu, a passionate developer with experience in web development. I enjoy creating innovative solutions and learning new technologies.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <!-- <h3>Project 1: Personal Website</h3>
+                <p>A responsive personal website built using HTML, CSS, and JavaScript to showcase my portfolio and blog.</p>
+            </div> -->
+
+            <div class="project">
+  <div class="project-image">
+    <img src="images copy/job-tracker.png" alt="Job Tracker App" />
+  </div>
+  <div class="project-info">
+    <h3>Job Tracker</h3>
+    <p>
+      A full-featured job application tracker built with React. Features a 
+      Kanban board, live job search via Adzuna API, remote jobs via Remotive 
+      API, and localStorage persistence.
+    </p>
+    <div class="project-tags">
+      <span>React</span>
+      <span>Context API</span>
+      <span>REST APIs</span>
+      <span>Vercel</span>
+    </div>
+    <div class="project-links">
+      <a href="https://job-tracker-phi-fawn.vercel.app" target="_blank" class="btn">
+        Live Demo
+      </a>
+      <a href="https://github.com/Jamiu-akinrinade/job-tracker" target="_blank" class="btn btn--outline">
+        GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
+            <!-- <div class="project">
+                <h3>Project 2: A Job Tracker App</h3>
+                <p>A job tracking application built with React and Node.js, allowing users to manage their job search activities and applications
+                    .</p>
+            </div> -->
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="cell">
+                <div class="cell">
+                    <img src="images copy/html-logo.webp" alt="html logo" loading="lazy">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="images copy/css-logo.webp" alt="CSS logo" loading="lazy">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="images copy/javascript-logo.webp" alt="JavaScript logo" loading="lazy">
+                    <span>JavaScript</span>
+                </div>
+               
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at</p>
+
+            <form action="mailto:Akinrinadejamiu419@gmail.com" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            
+        </section>
+    </div>
+    <script src="jamiu.js"></script>
+</body>
+
+</html>
